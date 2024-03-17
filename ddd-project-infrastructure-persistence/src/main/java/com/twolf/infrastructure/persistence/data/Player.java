@@ -1,4 +1,4 @@
-package com.twolf.infrastructure.persistence.entity;
+package com.twolf.infrastructure.persistence.data;
 
 import java.util.Date;
 
@@ -8,7 +8,7 @@ import lombok.Data;
  * 玩家运营数据
  */
 @Data
-public class PlayerOpe {
+public class Player {
 
     /**
      * 数据库自增主键

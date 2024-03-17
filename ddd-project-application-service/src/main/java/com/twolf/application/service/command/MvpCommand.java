@@ -1,4 +1,4 @@
-package com.twolf.domain.command;
+package com.twolf.application.service.command;
 
 import java.util.Date;
 

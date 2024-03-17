@@ -2,7 +2,7 @@ package com.twolf.infrastructure.persistence.mapper;
 
 import org.springframework.stereotype.Repository;
 
-import com.twolf.infrastructure.persistence.entity.PlayerOpe;
+import com.twolf.infrastructure.persistence.data.Player;
 
 /**
  * 假设它是一个Mapper，完成数据库持久化
@@ -17,26 +17,26 @@ public class PlayOpeMapper {
      * @param playerId
      * @return
      */
-    public PlayerOpe getByPlayId(String playerId){
+    public Player getByPlayId(String playerId){
         return null;
     }
 
-    public void insert(PlayerOpe playerOpe){
+    public void insert(Player player){
     }
 
     /**
      * 更新CP玩家ID和已组成过CP的总数量
-     * @param playerOpe
+     * @param player
      */
-    public void updateCpIdAndCount(PlayerOpe playerOpe){
+    public void updateCpIdAndCount(Player player){
 
     }
 
     /**
      * 更新首次获得MVP的时间
-     * @param playerOpe
+     * @param player
      */
-    public void updateFirstMvpTime(PlayerOpe playerOpe){
+    public void updateFirstMvpTime(Player player){
 
     }
 }

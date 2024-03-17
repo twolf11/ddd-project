@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.twolf.application.service.service.PlayerOpeService;
-import com.twolf.domain.command.CpCommand;
-import com.twolf.domain.command.MvpCommand;
+import com.twolf.application.service.PlayerOpeService;
+import com.twolf.application.service.command.CpCommand;
+import com.twolf.application.service.command.MvpCommand;
 
 /**
  * TODO

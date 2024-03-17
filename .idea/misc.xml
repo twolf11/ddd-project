@@ -10,16 +10,11 @@
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/ddd-project-infrastructure-cache/pom.xml" />
-        <option value="$PROJECT_DIR$/ddd-project-infrastructure-publisher/pom.xml" />
-        <option value="$PROJECT_DIR$/ddd-project-launcher/pom.xml" />
-        <option value="$PROJECT_DIR$/ddd-project-user-interface-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/ddd-project-user-interface-subscriber/pom.xml" />
-        <option value="$PROJECT_DIR$/ddd-project-user-interface-worker/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd-project-infrastructure-gateway/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
